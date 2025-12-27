@@ -1,0 +1,8 @@
+{
+  "name": "@vdm/ui",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "echo 'UI is served by server'"
+  }
+}

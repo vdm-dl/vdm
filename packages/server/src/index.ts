@@ -1,7 +1,9 @@
 import express from "express";
 import path from "path";
 import cors from "cors";
-import downloadRoute from "./routes/downloadRoute";
+import downloadRoute from "./routes/download";
+
+console.log("server module loaded");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
